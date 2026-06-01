@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title("Ứng dụng đầu tiên")
+st.title("Chatbot đầu tiên")
 
-name = st.text_input("Nhập tên")
+question = st.text_input("Nhập câu hỏi")
 
-if name:
-    st.success(f"Xin chào {name}")
+if question:
+    st.write("Bot:", "Bạn vừa nhập: " + question)
